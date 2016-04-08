@@ -1,0 +1,1 @@
+{"description": "Small plugin for SublimeText 3 that adds openwith options to tab context menu", "dependencies": [], "sublime_text": ">=3000", "platforms": ["*"], "url": "https://github.com/qybei/OpenWithInTab", "version": "1.0.0"}

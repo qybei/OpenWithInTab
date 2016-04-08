@@ -1,0 +1,32 @@
+[
+    {
+        "caption": "Preferences",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "OpenWithInTab",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/OpenWithInTab/OpenWithInTab.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/OpenWithInTab.sublime-settings"},
+                                "caption": "Settings – User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
